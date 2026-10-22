@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "dist"
-SKILLS = ["upliftcre-blog-article", "upliftcre-market-report", "upliftcre-listing", "upliftcre-case-study"]
+SKILLS = ["upliftcre-blog-article", "upliftcre-market-report", "upliftcre-listing", "upliftcre-case-study", "cre-offering-memorandum"]
 FIXED_TIME = (2026, 10, 22, 0, 0, 0)  # stable timestamps, so a rebuild with no change gives the same zip
 
 
