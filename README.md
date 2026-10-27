@@ -55,10 +55,15 @@ directly), and install `cre-offering-memorandum.zip` from `dist/`.
 
 ## Install
 
-1. In Claude (claude.ai or the desktop app): **Settings > Capabilities**. Make sure code
-   execution / file creation is on.
-2. **Skills > Upload skill**. Upload each zip from [`dist/`](dist/), one at a time, and
-   turn it on.
+1. Download each zip you need from [`dist/`](dist/). Do not unzip it.
+2. In Claude (claude.ai or the desktop app): **Settings > Capabilities**. Turn on
+   **Code execution and file creation** (called **Create and edit files** in newer versions).
+3. **Customize > Skills**, click **+**, then **Create skill**, then **Upload a skill**.
+   Upload one zip at a time.
+4. Make sure each skill is switched on.
+
+Skills work on every Claude plan. On Team and Enterprise, an organization owner may need
+to allow skills first. Menu names checked against Claude's help centre on 2026-10-27.
 
 ## Connect your website
 
